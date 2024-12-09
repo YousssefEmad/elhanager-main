@@ -1,0 +1,88 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+.pbmit-nav-menu-toggle {
+    padding: 0 27px;
+    margin-left: 0px;
+}
+.main-menu .navigation > li {
+    position: relative;
+    float: right;
+}
+.banner{
+    direction: ltr;
+}
+.pbmit-title{
+    direction: ltr;
+    text-align: right;
+}
+.pbmit-heading-subheading .pbmit-subtitle, .pbmit-heading-subheading-1 .pbmit-subtitle {
+    font-family: var(--pbmit-body-typography-font-family);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--pbmit-body-typography-color);
+    text-transform: none;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.pbmit-heading-subheading .pbmit-subtitle:after, .pbmit-heading-subheading-1 .pbmit-subtitle:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: unset;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    background-color: var(--pbmit-global-color);
+}
+.swiper-button-next {
+    margin-right: 10px;
+}
+.pbmit-btn_right {
+    text-align: left;
+}
+.pbmit-btn .pbmit-align-icon-right {
+    margin-right: 5px;
+    order: 15;
+}
+.service-one_arrow, .blog-two_arrow {
+    position: relative;
+    justify-content: right;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+    right: 0px;
+    text-align: left;
+}
+.testimonial-section_one .swiper-slider {
+    border-right: 1px solid #CCCCCC;
+    border-left: none;
+}
+.pbmit-testimonial-style-1 .pbmit-featured-wrapper img {
+    margin-left: 50px;
+    margin-right: 0px;
+}
+@media (min-width: 1200px) {
+    .main-menu .navigation > li > ul, .main-menu .navigation > li > ul > li > ul {
+        min-width: 230px;
+        position: absolute;
+        padding: 10px 0;
+        top: 100%;
+        right: 25px;
+        left: unset;
+    }
+}
+.pbmit-ihbox-style-5 .pbmit-ihbox-icon-wrapper {
+    display: inline-block;
+    margin-left: 25px;
+}
+.pbmit-ihbox-style-6 .pbmit-ihbox-icon-wrapper {
+    margin-left: 25px;
+}
